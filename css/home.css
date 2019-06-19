@@ -1,0 +1,254 @@
+* {   /* 通配符 */
+	margin: 0px;
+	padding: 0px;
+}
+.top {
+	width: 100%;
+	height: 70px;
+	background-color:  ;
+}
+.navbar-collapse li {
+	padding-top: 9px;
+}
+.nav_content {
+	width: 80%;
+	height: 70px;
+	margin: 0px auto;
+	
+}
+.nav_content a{
+	color: #000;
+    font-size: 14px;
+}
+/* 导航条样式结束 */
+
+/* 身体 */
+.bd{
+	margin:  auto;
+	width: 85%;
+	height: 100%;
+}
+.bd-wz{
+	width: 100%;
+	height: 200px;
+	
+}
+.bd-img{
+	margin:  auto;
+	width: 85%;
+	height: 100%;
+}
+.bd-img img {
+	width: 100%;
+	
+}
+.fanhui  {
+	width: 100%;
+	height: 57px;
+	margin: 80px 0 0 ; 
+	padding: 0 0 50px;
+	
+	
+}
+.fanhui a.l_link {
+    margin-top: 18px;
+    float: left;
+    display: block;
+    font-size: 16px;
+    color: #dc1e32;
+    padding-left: 14px;
+    background: url(../img/link_icon_red.png) no-repeat center left;
+}
+.r_share {
+    float: right;
+    font-size: 16px;
+    color: #000;
+    margin-top: 15px;
+}
+.r_share a {
+    width: 26px;
+    height: 26px;
+    margin-left: 10px;
+     display: inline-block; 
+}
+/* 身体结束 */
+	
+
+/* 底部样式 */
+.bfooter {
+	width: 100%;
+	min-width: 1280px;  /* 设置段落最小宽度 */
+	border-top: 8px solid #dc1e32;  /* 设置上边框 */
+	background: #000; /* 黑色 */
+	padding-top: 50px;  /* 设置内边距 */ 
+    position: relative;
+    
+}
+
+ .neiron {
+	width: 85%;  /* 宽85% */
+	margin: 0px auto;  /* 水平居中 */
+	/* height: 253px;   子级浮动 父级不给高  */
+	
+}
+
+.dw {
+	position: relative; /* 定位流 */
+}
+
+/* 左边内容 */
+.leftnr {
+	width: 75%;
+	border-right: 1px solid #333; /* 左边内容的右边框 */
+	
+}
+
+.leftnr table{
+	border-collapse: ;  
+	width: 100%;
+	background-color: ; 
+	border-spacing: auto;
+}
+
+.leftnr tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.leftnr td {
+    vertical-align: top; 
+    padding-right: 6px;  
+}
+
+
+ .title {
+    margin-bottom: 20px;  /* P标签为title  设置其 内下边距 */
+}
+
+.leftnr li {
+    list-style: none; /* 去掉前面的点点 */
+}
+
+.leftnr li:not(:last-of-type) { /* 伪类选择器 不用单独使用   li:last-of-type 指定父元素的最后一个li元素的背景色：~~~~*/
+    margin-bottom: 10px;
+}
+
+.leftnr a { 
+    color: #b1b1b1;
+    font-size: 14px;  /* a标签里文字的颜色和字体大小 */
+	text-decoration: none; /* 针对文本下划线 */
+}
+.title a {
+    font-size: 16px;
+    color: #fff;
+}
+
+ .leftnr a:hover { /* 针对鼠标移动到 a 链接上 */
+    color: #fff;
+    text-decoration: underline;
+	
+} 
+.leftnr a:link { /* 链接伪类选择器   鼠标移动到 a 标签上时不出现下划线  :link 未访问链接 */
+	text-decoration:none
+}
+
+
+
+ /* 并集选择器 */
+
+ .leftnr,.rightnr {
+	 float: left;
+	}
+.clearfix:after { /* 伪元素清除浮动 */
+	content: ".";    /* 尽量加内容不要空 否则旧版本浏览器有空隙 */
+	display: block;  /* 转换为块级元素 */ 
+	height: 0;   
+	visibility: hidden; /* 隐藏盒子 */
+	clear: both; /* 清楚浮动 */
+	}
+.clearfix {  /* IE6 和 7才执行 */
+		*zoom: 1;
+	} 
+ /* 右边内容 */
+.rightnr {
+	
+    text-align: center;  /* 内容居中 */
+    width: 269px;
+}
+
+ /* 下边 */
+.botlink {
+	padding: 20px 0 50px;
+	background-color: #000;
+}
+.fcontainer {
+	width: 1280px;
+	margin: 0 auto;
+}
+.botlink .policy {
+    overflow: hidden;
+    float: left;
+}
+.clearfix  ul{
+    list-style: none;
+	    margin: 0;
+    padding: 0;
+}
+.policy li {
+    float: left;
+}
+.clearfix li, ul {
+    list-style: none;
+}
+.policy li:first-of-type a {
+    padding-left: 0;
+}
+.botlink .policy li a {
+    height: 16px;
+    line-height: 16px;
+    display: inline-block;
+    vertical-align: baseline;
+    padding: 0 8px;
+    border-right: 1px solid #b1b1b1;
+}
+.clearfix a {
+    color: #b1b1b1;
+    font-size: 14px;
+	text-decoration: none;
+	background: 0 0;
+}
+.policy li {
+	list-style: none;
+	display: list-item;
+}
+.botlink .copyright {
+    float: right;
+    overflow: hidden;
+}
+.botlink .copyright li {
+    float: left;
+}
+.copyright a.nolink {
+    cursor: default;
+}
+
+.gov {
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    top: -3px;
+}
+.gov li a {
+    display: inline-block;
+}
+
+
+
+
+.others {
+    margin-top: 50px;
+    padding: 15px 0;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
